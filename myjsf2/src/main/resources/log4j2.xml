@@ -25,6 +25,7 @@
         <Logger name="org.springframework" level="warn"/>
         <Logger name="org.appfuse" level="debug"/>
         <Logger name="org.appfuse.tool" level="info"/>
+        <Logger name="at" level="debug"/>
 
         <Root level="warn">
             <AppenderRef ref="Console" />
