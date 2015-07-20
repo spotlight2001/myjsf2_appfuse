@@ -3,11 +3,11 @@ package at.wm.webapp.action;
 import java.io.Serializable;
 
 import javax.faces.bean.ManagedProperty;
+import javax.faces.bean.ViewScoped;
 
-import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
-@Scope("view")
+@ViewScoped
 @Component
 public class EmployeeController extends BasePage implements Serializable {
 
